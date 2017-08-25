@@ -8,7 +8,7 @@ class Data {
         int ano;
 
         Data(int dia, int mes, int ano);
-        void avancarDia();
+        void avancarDia(int dia, int mes, int ano);
 };
 
 #endif // DATA_H
