@@ -1,6 +1,30 @@
 #include "Data.h"
 #include <iostream>
 
+int Data::getDia(){
+	return dia;
+}
+
+int Data::getMes(){
+	return mes;
+}
+
+int Data::getAno(){
+	return ano;
+}
+
+void Data::setDia(int dia){
+	this->dia = dia;
+}
+
+void Data::setMes(int mes){
+	this->mes = mes;
+}
+
+void Data::setAno(int ano){
+	this->ano = ano;
+}
+
 Data::Data(int dia, int mes, int ano){
 
     if(dia > 31){
