@@ -11,13 +11,13 @@ class Data {
         void avancarDia(int dia, int mes, int ano);
 	
 	int getDia();
-	void setDia(int dia);
+	void setDia(int d);
 	
 	int getMes();
-	void setMes(int mes);
+	void setMes(int m);
 	
 	int getAno();
-	void setAno(int ano);
+	void setAno(int a);
 	
 };
 

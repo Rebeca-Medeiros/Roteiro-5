@@ -1,6 +1,18 @@
 #include "Data.h"
 #include <iostream>
 
+void Data::setDia(int d){
+	dia = d;
+}
+
+void Data::setMes(int m){
+	 mes = m;
+}
+
+void Data::setAno(int a){
+	ano = a;
+}
+
 int Data::getDia(){
 	return dia;
 }
@@ -11,18 +23,6 @@ int Data::getMes(){
 
 int Data::getAno(){
 	return ano;
-}
-
-void Data::setDia(int dia){
-	this->dia = dia;
-}
-
-void Data::setMes(int mes){
-	this->mes = mes;
-}
-
-void Data::setAno(int ano){
-	this->ano = ano;
 }
 
 Data::Data(int dia, int mes, int ano){
