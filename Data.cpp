@@ -25,11 +25,7 @@ int Data::getAno(){
 	return ano;
 }
 
-Data::Data(int d, int m, int a){
-
-    setDia(d);
-    setMes(m);
-    setAno(a);
+Data::Data(int dia, int mes, int ano){
 
     if(dia > 31){
         std::cout << "Data invalida" << std::endl;

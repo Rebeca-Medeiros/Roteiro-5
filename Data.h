@@ -7,7 +7,8 @@ class Data {
         int mes;
         int ano;
     public:
-        Data(int dia, int mes, int ano);
+        //Data();
+	Data(int dia, int mes, int ano);
         void avancarDia(int dia, int mes, int ano);
 
       	int getDia();
