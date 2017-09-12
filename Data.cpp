@@ -25,7 +25,11 @@ int Data::getAno(){
 	return ano;
 }
 
-Data::Data(int dia, int mes, int ano){
+Data::Data(int d, int m, int a){
+
+    setDia(d);
+    setMes(m);
+    setAno(a);
 
     if(dia > 31){
         std::cout << "Data invalida" << std::endl;
@@ -62,12 +66,12 @@ void Data::avancarDia(int dia, int mes, int ano){
 	dia++;
     	std::cout << "Nova data: " << dia << "/" << mes << "/" << ano << std::endl;
     }
-    
+
     if(mes == 12 && dia == 31){
         ano++;
 	mes = 1;
 	std::cout << "Nova data: " << dia << "/" << mes << "/" << ano << std::endl;
     }
 
-   
+
 }
