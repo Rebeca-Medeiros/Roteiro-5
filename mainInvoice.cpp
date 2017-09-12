@@ -1,24 +1,23 @@
 #include <iostream>
 #include "Invoice.h"
+#include <string>
 
 using namespace std;
 
 int main()
 {
 	Invoice in1 = Invoice(3, "Cuscuz", 5, 4.57);
-	Invoice in2 = Invoice(in2.numero, in2.descricao, in2.quantidade, in2.precop);
+	Invoice in2 = Invoice(4, "Arroz", 7, 3,50);
 
-	cout << "Digite o numero do produto: " << endl;
-	cin >> in2.numero;
+	in1.setNumero(7);
+	in1.setQuantidade(12);
+	in1.setDescricao("Bolo");
+	in1.setPrecop(7.89);
 
-	cout << "Descricao: " << endl;
-	cin >> in2.descricao;
-	
-	cout << "Quantidade: " << endl;
-	cin >> in2.quantidade;
-
-	cout << "Preco do produto: " << endl;
-	cin >> in2.precop;
+	in2.setNumero(12);
+	in2.setQuantidade(5);
+	in2.setDescricao("Leite");
+	in2.setPrecop(7.89);
 
 	in1.getInvoiceAmount(5, 4.57);
 	in2.getInvoiceAmount(in2.quantidade, in2.precop);

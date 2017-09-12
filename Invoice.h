@@ -24,7 +24,6 @@ class Invoice{
 		double getPrecop();
 		void setPrecop(double p);
 
-		
 };
 
 
