@@ -7,7 +7,7 @@ class Pessoa{
   private:
     std::string nome;
     int idade;
-    std::std::string telefone;
+    std::string telefone;
   public:
     Pessoa(std::string nome);
     Pessoa(std::string, int idade, std::string telefone);

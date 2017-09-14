@@ -14,6 +14,9 @@ int main(){
   p2.setIdade(36);
   p2.setTelefone("5432-9876");
 
+  cout << p1.getNome() << endl;
 
+  cout << p2.getNome() << " " << p2.getIdade() << " " << p2.getTelefone();
+   
   return 0;
 }
