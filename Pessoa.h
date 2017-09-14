@@ -7,10 +7,10 @@ class Pessoa{
   private:
     std::string nome;
     int idade;
-    std::string telefone;
+    std::std::string telefone;
   public:
     Pessoa(std::string nome);
-    Pessoa(std::string nome, int idade, std::string telefone);
+    Pessoa(std::string, int idade, std::string telefone);
 
     std::string getNome();
     void setNome(std::string n);
@@ -20,6 +20,7 @@ class Pessoa{
 
     std::string getTelefone();
     void setTelefone(std::string t);
+
 };
 
 #endif // PESSOA_H
