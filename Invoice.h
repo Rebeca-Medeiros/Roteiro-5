@@ -1,9 +1,10 @@
 #ifndef INVOICE_H
 #define INVOICE_H
+#include <string>
 #include <iostream>
 
 class Invoice{
-	private: 
+	private:
 		int numero;
 		std::string descricao;
 		int quantidade;
@@ -14,10 +15,10 @@ class Invoice{
 
 		int getNumero();
 		void setNumero(int n);
-	
+
 		int getQuantidade();
 		void setQuantidade(int q);
-	
+
 		std::string getDescricao();
 		void setDescricao(std::string s);
 
