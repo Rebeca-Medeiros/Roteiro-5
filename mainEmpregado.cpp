@@ -4,21 +4,15 @@
 using namespace std;
 
 int main(){
-	
-	Empregado e1 = Empregado("João", "Dos Santos", 1250);
-	Empregado e2 = Empregado(e2.nome, e2.sobrenome, e2.salarioM);
 
-	cout << "Nome: " << endl;
-	cin >> e2.nome;
+	Empregado e1 = Empregado("Rosa", "Diaz", 1250);
+	Empregado e2 = Empregado("Amelia", "Santiago", 1350);
 
-	cout << "Sobrenome: " << endl;
-	cin >> e2.sobrenome;
+	cout << e1.getNome << " " << e1.getSobrenome << " Salario mensal: " << e1.getSalarioM << endl;
+	cout << e2.getNome << " " << e1.getSobrenome << " Salario mensal: " << e2.getSalarioM << endl;
 
-	cout << "Salario mensal: " << endl;
-	cin >> e2.salarioM;
-
-	e1.salarioAnual(1250.45);
-	e2.salarioAnual(e2.salarioM);
+	e1.salarioAnual(e1.getSalarioM());
+	e2.salarioAnual(e2.getSalarioM());
 
 	return 0;
 }
