@@ -7,13 +7,13 @@
 class Pagamento{
   private:
     double valorPagamento;
-    string nomeDoFuncionario;
+    std::string nomeDoFuncionario;
   public:
     double getValorPagamento();
     void setValorPagamento(double valorPagamento);
 
-    string getNomeDoFuncionario();
-    void setNomeDoFuncionario(string nomeDoFuncionario);
+    std::string getNomeDoFuncionario();
+    void setNomeDoFuncionario(std::string nomeDoFuncionario);
 };
 
 #endif // PAGAMENTO_H

@@ -6,7 +6,7 @@ double Pagamento::getValorPagamento(){
   return valorPagamento;
 }
 
-string Pagamento::getNomeDoFuncionario(){
+std::string Pagamento::getNomeDoFuncionario(){
   return nomeDoFuncionario;
 }
 
@@ -14,6 +14,6 @@ void Pagamento::setValorPagamento(double valorPagamento){
   this->valorPagamento = valorPagamento;
 }
 
-void Pagamento::setNomeDoFuncionario(string nomeDoFuncionario){
+void Pagamento::setNomeDoFuncionario(std::string nomeDoFuncionario){
   this->nomeDoFuncionario = nomeDoFuncionario;
 }
